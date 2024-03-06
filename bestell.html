@@ -1,0 +1,120 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beställing</title>
+</head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="stylefrukt.css">
+<link rel="stylesheet" href="stylefrukt3.css">
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="Vindruv.png" alt="" width="70px" height="40px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Hem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./frukt.html">Frukter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beställing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Medlem idag och första beställning ger 50% rabatt!</h1>
+
+    <div class="backbild">
+        <img class="sistabild" src="abc.png" alt="backbild">
+    </div>
+
+    <!--Section: Content-->
+    <section class="mb-5">
+        <h2 class="mb-5 text-center" style="color: yellowgreen; font-family: emoji;"><strong>Registrera och
+                beställa!</strong></h2>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <!-- 2 column grid layout with text inputs for the first and last names -->
+                    <div class="row mb-4">
+                        <div class="col">
+                            <div class="form-outline" data-mdb-input-init>
+                                <input type="text" id="form3Example1" class="form-control" />
+                                <label class="form-label" for="form3Example1">Förnamn</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-outline" data-mdb-input-init>
+                                <input type="text" id="form3Example2" class="form-control" />
+                                <label class="form-label" for="form3Example2">Efternamn</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-outline mb-4" data-mdb-input-init>
+                        <input type="email" id="form3Example3" class="form-control" />
+                        <label class="form-label" for="form3Example3">Email</label>
+                    </div>
+
+                    <!-- Lösenord -->
+                    <div class="form-outline mb-4" data-mdb-input-init>
+                        <input type="password" id="form3Example4" class="form-control" />
+                        <label class="form-label" for="form3Example4">Lösenord</label>
+                    </div>
+
+                    <!-- Födelsedag -->
+                    <div class="form-outline mb-4" data-mdb-input-init>
+                        <input type="date" id="form3Example5" class="form-control" />
+                        <label class="form-label" for="form3Example5">Födelsedatum</label>
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <form action="">
+        <fieldset>
+            <strong style="color: red;">Vad väljer du idag?</strong> <br>
+            <input type="checkbox" namn="Apple">Äpple
+            <input type="checkbox" namn="Banan">Banan
+            <input type="checkbox" namn="Vindruv">Vindruvar
+            <input type="checkbox" namn="Clementin">Clementiner <br>
+
+            <strong>Leverans:</strong> <br>
+            <select name="delivery" style="font-size: larger;">
+                <option value="leaveatdoor">Utanför dörren</option>
+                <option value="pickup">Hämta i butik</option>
+            </select> <br>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color: green;">
+                Beställ
+            </button>
+            <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color: red;">
+                Återställ
+            </button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+fieldset {
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    width: 750px;
+}
+
+.backbild {
+    display: flex;
+    justify-content: center;
+}
+
+.sistabild {
+    width: 300px;
+    height: auto;
+
+}
