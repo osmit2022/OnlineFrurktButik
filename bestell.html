@@ -8,8 +8,8 @@
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="stylefrukt.css">
-<link rel="stylesheet" href="stylefrukt3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="stylebestell.css">
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -84,37 +84,35 @@
                         <label class="form-label" for="form3Example5">Födelsedatum</label>
                     </div>
 
+                    <fieldset>
+                        <strong style="color: red;">Vad väljer du idag?</strong> <br>
+                        <input type="checkbox" namn="Apple"> <a style="color: green;">Äpple</a>
+                        <input type="checkbox" namn="Banan"> <a style="color: yellow;">Banan</a>
+                        <input type="checkbox" namn="Vindruv"> <a style="color: rebeccapurple;">Vindruvar</a>
+                        <input type="checkbox" namn="Clementin"> <a style="color: orangered;">Clementiner</a> <br>
 
+                        <strong>Leverans:</strong> <br>
+                        <select name="delivery" style="font-size: larger;">
+                            <option value="leaveatdoor">Utanför dörren</option>
+                            <option value="pickup">Hämta i butik</option>
+                        </select> <br>
 
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color: green;">
+                            Beställ
+                        </button>
+                        <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color: red;">
+                            Återställ
+                        </button>
+                    </fieldset>
                 </form>
             </div>
         </div>
-    </section>
 
-    <form action="">
-        <fieldset>
-            <strong style="color: red;">Vad väljer du idag?</strong> <br>
-            <input type="checkbox" namn="Apple">Äpple
-            <input type="checkbox" namn="Banan">Banan
-            <input type="checkbox" namn="Vindruv">Vindruvar
-            <input type="checkbox" namn="Clementin">Clementiner <br>
-
-            <strong>Leverans:</strong> <br>
-            <select name="delivery" style="font-size: larger;">
-                <option value="leaveatdoor">Utanför dörren</option>
-                <option value="pickup">Hämta i butik</option>
-            </select> <br>
-
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color: green;">
-                Beställ
-            </button>
-            <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color: red;">
-                Återställ
-            </button>
-        </fieldset>
-    </form>
-
+        <!--Script-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
