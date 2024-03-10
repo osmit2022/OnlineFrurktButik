@@ -1,4 +1,4 @@
-.h1-section h1 {
+.h1-section h1{
     color: blue;
 }
 
@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .image-item img {
@@ -23,7 +24,6 @@
 }
 
 p {
-
     animation: resize 4s infinite;
     /* 4s är animationens totala tid, och infinite gör att den upprepas oändligt */
 }
