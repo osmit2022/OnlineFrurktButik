@@ -1,19 +1,22 @@
 fieldset {
-    margin: 0 auto;
     padding: 15px;
     background-color: white;
-    border: 3px solid #ccc;
-    border-radius: 10px;
-    width: 750px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .backbild {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .sistabild {
     width: 300px;
     height: auto;
+}
 
+select {
+    margin: 2px;
 }
