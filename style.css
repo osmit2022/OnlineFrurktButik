@@ -1,11 +1,12 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     background-color: aqua;
     width: 100%;
     margin: 0 auto;
-    
+
 }
 
 h1 {
@@ -39,4 +40,20 @@ p {
     100% {
         transform: scale(1);
     }
+}
+
+.contakt-section {
+    border: 1px solid white;
+    height: 100vh;
+    background: url('fruktt.png') fixed;
+    background-size: cover;
+}
+
+.box-contact {
+    padding: 100px;
+    display: block;
+}
+
+.os-3 {
+    padding: 10px;
 }
